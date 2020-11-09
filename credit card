@@ -6,8 +6,8 @@ for i in range(int(input())):
         processed_string = "".join(pre_match.group(0).split('-'))
         final_match = re.search(r'(\d)\1{3,}',processed_string)
         if final_match:
-            print('Invalid')
+            print("Invalid")
         else :
-            print('Valid')
+            print("Valid")
     else:
-        print('Invalid')
+          print("Invalid")
